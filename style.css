@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body{
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  color: #4e5150;
+}
+/*header*/
+header{
+  width: 1320px; 
+  margin: auto;
+  position: relative;
+  padding-bottom: 60px;
+  margin-top: 10px;
+}
+.menu{
+  position: absolute;
+  top: 60px;
+  left: 55%;
+}
+.menu> li{
+  float: left;
+  position: relative;
+}
+.menu> li> a{
+  padding-left: 20px;
+  font-family: 'IM Fell DW Pica';
+  font-size: 22px;
+  color: #4e5150;
+  font-weight: bold;
+}
+.menu> li> a:hover{
+  color: #cfcfd3;
+}
+.icon{
+  position: absolute;
+  top: 60px;
+  left: 94%;
+}
+.icon li{
+  float: left;
+}
+.icon li a{
+  padding-left: 8px;
+}
+.icon li a:hover{
+  opacity: 0.4;
+}
+/*submenu*/
+.sub_menu a{
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'IM Fell English SC';
+  color: #4e5150;
+  font-size: 18px;
+}
+.sub_menu a:hover{
+  color: #cfcfd3;
+}
+.sub_menu{
+  display: none;
+  position: absolute;
+  width: 120%;
+}
+.menu li:hover .sub_menu{
+  display: block;
+}
+/*submenu*/
+/*header*/
+/*content1*/
+#content1{
+  width: 1320px;
+  margin: auto;
+  height: 1000px;
+  position: relative;
+  margin-top: 50px;
+}
+.product_img{
+  float: left;
+  margin-left: 100px;
+}
+.none1{
+  position: absolute;
+  left: 100px;
+  top: 0;
+  display: none;
+}
+.none2{
+  position: absolute;
+  left: 100px;
+  top: 0;
+  display: none;
+}
+.none3{
+  position: absolute;
+  left: 100px;
+  top: 0;
+  display: none;
+}
+.product_img li{
+  float: left;
+  padding: 20px 25px;
+}
+.product_text{
+  float: right;
+  margin-right: 100px;
+}
+.text1{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #4e5150;
+}
+.text1 h1{
+  padding-bottom: 20px;
+}
+.text1 h2{
+  padding-bottom: 100px;
+}
+.text1 p{
+  padding-top: 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.text2{
+  padding-top: 40px;
+}
+.p1{
+  line-height: 26px;
+  font-size: 16px;
+}
+.small{
+  padding-top: 80px;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+.total{
+  font-size: 18px;
+  color: black;
+  padding-top: 25px;
+}
+h3{
+  color: black;
+  padding-top: 5px;
+}
+.btn{
+  position: absolute;
+  right: 8%;
+  bottom: 27%;
+}
+.button{
+  border: 1px solid black;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.buy{
+  margin-right: 60px;
+}
+.buy, .bag{
+  background-color: #4e5150;
+  width: 200px;
+  float: left;
+  padding: 13px 0;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.buy a, .bag a{
+  color: white;
+}
+.buy:hover{
+  background-color: #d9d3cc;
+}
+.bag:hover{
+  background-color: #d9d3cc;
+}
+.buy:hover a{
+  font-weight: bold;
+}
+.bag:hover a{
+  font-weight: bold;
+}
+.text2 h2{
+  text-align: center;
+}
+/*content1*/
+/*content2*/
+#content2{
+  height: 6450px;
+  width: 1320px;
+  margin: auto;
+  margin-top: 50px;
+  border-top: 1px solid #171715;
+  position: relative;
+  z-index: -2;
+  border-bottom: 1px solid #171715;
+}
+#content2 img{
+  margin-top: 140px;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#content2 h2{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.text{
+  position: absolute;
+  width: 1000px;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 22%;
+}
+.text p{
+  color: #171715;
+  line-height: 30px;
+}
+.t1{
+  border-top: 1px solid #171715;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.t2{
+  border-top: 1px solid #171715;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.t3{
+  border-top: 1px solid #171715;
+  border-bottom: 1px solid #171715;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+span{
+  font-weight: bold;
+}
+/*content2*/
+/*content3*/
+#content3{
+  margin-top: 200px;
+  width: 1320px;
+  margin: auto;
+  height: 700px;
+}
+#content3 h2{
+  text-align: center;
+  padding: 200px 0;
+}
+#content3 li{
+  float: left;
+}
+#content3 li p{
+  text-align: center;
+  padding-top: 20px;
+  line-height: 20px;
+}
+#content3 li:nth-child(1){
+  padding-right: 80px;
+}
+#content3 li:nth-child(2){
+  padding-right: 80px;
+}
+/*content3*/
+/*Top botton*/
+.top{
+  position:fixed; 
+  bottom:50px; 
+  right:50px; 
+  display:none;
+  z-index: 3;
+}
+.top img{
+  width: 70%;
+}
+/*Top botton*/
+/*footer*/
+#footer{
+  background: url('footer/footerbg.jpg')
+  no-repeat;
+  height: 286px;
+  margin-top: 500px;
+  position: relative;
+  bottom: 0;
+}
+.footer_inner{
+  width: 1320px;
+  margin: auto;
+  padding-top: 90px;
+  position: relative;
+}
+.f1, .f2{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fffffd;
+  margin-top: -20px;
+}
+.f2{
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.f3{
+  font-family: 'Pretendard-Regular';
+  color: #fffffd;
+  font-size: 14px;
+}
+.footer_center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -245px;
+}
+.footer_right{
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 300px;
+}
+.r1{
+  float: right;
+}
+.r1 li{
+  float: left;
+}
+.r1 li a{
+  font-family: 'Pretendard-Regular';
+  color: #fffffd;
+}
+.r1 li a:hover{
+  opacity: 0.5;
+}
+.footer_right_icon{
+  position: absolute;
+  right: 0;
+  top: 90%;
+}
+.footer_icon{
+  float: right;
+}
+.footer_icon li{
+  float: left;
+  padding-left: 10px;
+}
+.r1 li a{
+  font-family: 'Pretendard-Regular';
+}
+.facebook:hover{
+  background: url(footer/facebook_hover.png) no-repeat
+  100% 0%;
+}
+.insta:hover{
+  background: url(footer/insta_hover.png) no-repeat
+  100% 0%;
+}
+.twitter:hover{
+  background: url(footer/twitter_hover.png) no-repeat
+  100% 0%;
+}
+.youtube:hover{
+  background: url(footer/youtube_hover.png) no-repeat
+  100% 0%;
+}
+/*footer*/
